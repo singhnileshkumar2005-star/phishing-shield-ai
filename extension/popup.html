@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { width: 320px; font-family: system-ui, sans-serif; background-color: #0f172a; color: #f8fafc; padding: 16px; margin: 0; }
+    h3 { font-size: 16px; margin-top: 0; color: #ef4444; display: flex; align-items: center; gap: 6px; }
+    input { width: 100%; padding: 8px; background-color: #1e293b; border: 1px solid #334155; color: #fff; border-radius: 4px; box-sizing: border-box; margin-bottom: 12px; }
+    button { width: 100%; padding: 10px; background-color: #ef4444; border: none; color: #fff; font-weight: bold; border-radius: 4px; cursor: pointer; }
+    button:hover { background-color: #dc2626; }
+    #result { margin-top: 14px; padding: 10px; border-radius: 4px; display: none; font-size: 13px; line-height: 1.4; }
+    .threat { background-color: #7f1d1d; border: 1px solid #ef4444; color: #fca5a5; }
+    .safe { background-color: #064e3b; border: 1px solid #10b981; color: #a7f3d0; }
+  </style>
+</head>
+<body>
+  <h3>🛡️ Phishing Shield AI - Dev Sandbox</h3>
+  <input type="text" id="urlInput" placeholder="Paste test URL here...">
+  <button id="analyzeBtn">Analyze Vector</button>
+  <div id="result"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
